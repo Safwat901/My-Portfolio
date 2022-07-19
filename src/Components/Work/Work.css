@@ -1,0 +1,88 @@
+.work{
+    display: flex;
+    margin-top: 4rem;
+    padding: 0 3rem 0 3rem;
+    height: 90vh;
+}
+
+.w-maincircle{
+    height: 18rem;
+    width: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    left: 9rem;
+    position: relative;
+    top: 2rem;
+    background: white;
+}
+
+.w-right{
+    position: relative;
+}
+
+.w-maincircle>*{
+    position: absolute;
+}
+
+.w-maincircle>:nth-child(1) {
+    top: -3rem;
+    left: 6rem;
+}
+
+.w-maincircle>:nth-child(2) {
+    top: 6rem;
+    left: -1.5rem;
+}
+
+.w-maincircle>:nth-child(3) {
+    top: 6rem;
+    left: 6.5rem;
+}
+
+.w-maincircle>:nth-child(4) {
+    top: 15rem;
+    left: 6.5rem;
+}
+
+ .w-maincircle>:nth-child(5) {
+    top: 6rem;
+    left: 14.5rem;
+}
+
+.w-seCircle{
+    height: 6rem;
+    width: 6rem;
+    border: 6px solid #ebebeb;
+    border-radius:100% ;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    background: 'none';
+    position: absolute;
+    box-shadow: var(--smboxShadow);
+    background:white;
+}
+
+.w-seCircle>img{
+    transform: scale(0.6);
+}
+
+.w-backcircle{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.bluecircle{
+    background: blue;
+    left: 18rem;
+    top: 0rem;
+}
+
+.yellowcircle{
+    background: yellow;
+    left: 18rem;
+    top: 8rem;
+}
